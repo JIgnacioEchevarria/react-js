@@ -1,0 +1,89 @@
+* {
+    font-weight: ;
+}
+
+.bi-backpack-fill {
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bag {
+    width: 100%;
+    height: 100%;
+    background: rgb(226, 120, 120);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bag .bagTitle {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.appear {
+    display: flex;
+}
+
+.bag ul {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-height: 70vh;
+    overflow: auto;
+    padding: 1rem 0;
+}
+
+.bagItem {
+    width: 30%;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
+.bagItem-image {
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bagItem-image img {
+    width: 100%;
+    max-width: 10rem;
+}
+
+.bagItem-id {
+    background: #e2dfdf;
+    padding: .5rem;
+    border-radius: 100vh;
+}
+
+.bagItem-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bagItem-btnDelete {
+    background: red;
+    padding: 1rem;
+    width: 100px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
